@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Viaoda+Libre&display=swap'); 
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+   font-family: "Viaoda Libre", serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(80, 35, 163);
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 20%;
+    margin-left: 5%;
+    /* border: 1px solid orange; */
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    color: aliceblue;
+}
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: #FF2978;
+    border-top: 4px solid black;
+}
+#botao{
+    background: aliceblue;
+    padding: 10px 25px;
+    color: rgb(13, 1, 27);
+    border-radius:5px ;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: #FF2978;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.header h2{
+    font-weight: 900px;
+    font-size: 20px;
+    color:rgb(21, 6, 36);
+    padding: 0;
+    margin: 0;
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid deeppink; */
+    text-align: center;
+}
+.headline p{
+    color: black;
+    text-align: left;
+}
+.contactbtn{
+    display: inline-block;
+   background: rgb(80, 35, 163);
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase ;
+   border-radius: 5px;
+}
+.contactbtn:hover{
+     display: inline-block;
+   background: rgb(130, 106, 175);
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase ;
+   border-radius: 5px;
+}
+section{
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+    padding: 2%;
+}
+section h2{
+    width: 100%;
+    font-size:50px;
+    margin: 0;
+    font-family: "Viaoda Libre", serif;
+    font-weight: bold;
+     color:rgb(21, 6, 36);
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    
+}
+.card:hover{
+    background: rgb(80, 35, 163);
+    color: white;
+    padding: 40px;
+    border-radius: 20%;
+}
+.card:hover img{
+    display: none;
+}
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background: rgb(22, 8, 46);
+    text-align: center;
+    border-top: 5px solid white;
+}
+.logo-rodape{
+    padding: 100px;
+
+}
+.InkPrisma{
+     font-family: "Kaushan Script", cursive;
+    color: aliceblue;
+
+}
